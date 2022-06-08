@@ -1,0 +1,19 @@
+# COn los siguientes comandos, podemos crear un repo en GIT y subir archivos al mismo
+
+git init
+git add -A
+git status
+git commit -m "Primer Version"
+git branch -M main
+git remote add origin https://github.com/bzorzet98/Biomechs.git
+git push -u origin main
+
+
+Ahora para establecer los requerimientos del entorno virtual para poder ejecutarlo: 
+conda activate biomechanics 
+ACA TENEMOS QUE IR A LA DIRECCIÓN DONDE QUEREMOS QUE SE CREE EL ARCHIVO DE REQUERIMIENTOS
+conda list -e > requirements.txt
+
+
+
+
